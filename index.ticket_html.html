@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예매 팝업 창</title>
+    <link rel="stylesheet" href="공통.css">
+    <link rel="stylesheet" href="개별_수정.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<div class="booking-modal-overlay padding-left padding-right padding-top padding-bottom">
+    <div class="booking-modal-content margin">
+        
+        <div class="booking-header">
+            <button class="back-btn" onclick="history.back()">
+                <i class="fas fa-arrow-left"></i> 돌아가기
+            </button>
+        </div>
+
+        <section class="date-picker-section">
+            <div class="date-scroll-container">
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>16</strong><span class="day">화</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>17</strong><span class="day">수</span></div>
+                <div class="date-item active border-radius"><span>6월</span><strong>18</strong><span class="day">목</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>19</strong><span class="day">금</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>20</strong><span class="day">토</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>21</strong><span class="day">일</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>22</strong><span class="day">월</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>23</strong><span class="day">화</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>24</strong><span class="day">수</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>25</strong><span class="day">목</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>26</strong><span class="day">금</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>27</strong><span class="day">토</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>28</strong><span class="day">일</span></div>
+                 <div class="date-item gray-font border-radius"><span>6월</span><strong>25</strong><span class="day">목</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>26</strong><span class="day">금</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>27</strong><span class="day">토</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>28</strong><span class="day">일</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>25</strong><span class="day">목</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>26</strong><span class="day">금</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>27</strong><span class="day">토</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>28</strong><span class="day">일</span></div>
+           
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>27</strong><span class="day">토</span></div>
+                <div class="date-item gray-font border-radius"><span>6월</span><strong>28</strong><span class="day">일</span></div>
+            </div>
+            </div>
+        </section>
+
+        <div class="booking-main-layout">
+            
+            <section class="seat-selection-area">
+                <div class="screen-indicator">
+                    <div class="screen-line margi"></div>
+                    <h3 class="gray-font">screen</h3>
+                </div>
+                
+                <div class="seat-grid margin">
+                 <img src="좌석.png">
+                </div>
+
+            </section>
+
+            <section class="booking-summary-area">
+                <div class="summary-header">
+                    <h2>Presentation Day</h2>
+                    <p class="summary-date gray-font">2026.06.18 (목)</p>
+                </div>
+
+                <div class="info-block">
+                    <span class="info-label gray-font">상영관</span>
+                    <p class="info-value">계원예대 702A강의실</p>
+                </div>
+
+                <div class="info-block">
+                    <span class="info-label gray-font">상영 시간</span>
+                    <div class="time-slots">
+                        <button class="time-btn gray-font border-radius">09:00</button>
+                        <button class="time-btn active border-radius">10:00</button>
+                        <button class="time-btn gray-font border-radius">11:00</button>
+                    </div>
+                </div>
+
+                <div class="info-block">
+                    <span class="info-label gray-font">좌석</span>
+                    <p class="info-value">C열 2, 3, 4, 5번</p>
+                </div>
+
+                <div class="info-block">
+                    <span class="info-label gray-font">인원</span>
+                    <p class="info-value">일반 4명</p>
+                </div>
+
+                <div class="price-block">
+                    <span class="price-label">총 금액</span>
+                    <span class="price-value">40,000원</span>
+                </div>
+
+                <button class="final-submit-btn ticket-btn border-radius">예매하기</button>
+            </section>
+            
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
